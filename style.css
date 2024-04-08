@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font
-
+}
 *{
     margin: 0;
     padding: 0;
@@ -87,6 +86,19 @@ section main nav .logoBx img{
     object-fit: cover;
     cursor: pointer;
 }
+nav{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #6060d8, #777ae3, #8f94ef);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
+}
 section main nav .menu{
     position: relative;
     width: 100%;
@@ -121,7 +133,7 @@ section main nav .menu ul li button{
     height: 30px;
     text-decoration: none;
     color: #e8eff7;
-    font-size: 1.5em;
+    font-size: 1em;
     text-transform: capitalize;
     display: flex;
     justify-content: center;
@@ -132,6 +144,9 @@ section main nav .menu ul li button{
     border: none;
     transition: .3s ease;
 }
+/* section main nav .menu ul li button a{
+    font-size: 1.5em;
+} */
 section main nav .menu ul li button:hover {
     background: linear-gradient(45deg, #777ae3, #8f94ef);
 }
@@ -145,35 +160,9 @@ section main nav .menu ul li:nth-child(1) a::before{
     background: #e8eff7;
     border-radius: 10px;
 }
-section main nav .menu .searchBx{
-    position: relative;
-    width: calc(100% - 70%);
-    height: 70px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-section main nav .menu .searchBx input{
-    position: absolute;
-    width: 90%;
-    height: 40px;
-    border: none;
-    outline: none;
-    background: #e8eff7;
-    border-radius: 15px;
-    padding-left: 10px;
-    padding-right: 45px;
-    font-size: 1.2em;
-    color: #555;
-}
-section main nav .menu .searchBx i{
-    position: absolute;
-    top: 22px;
-    right: 50px;
-    font-size: 1.5em;
-    color: #8f94ef;
-    cursor: pointer;
-}
+/* .abc{
+    font-size: 5px;
+} */
 section main .content{
     position: relative;
     top: 40px;
